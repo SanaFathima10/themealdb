@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 
 function NavBar() {
     let [data, setData] = useState([])
-     let count = useSelector(()=>{state})
+    //  let count = useSelector(()=>{state})
 
   let totalCartCount = data.reduce((total, meal) => total + meal.count, 0);
   return (

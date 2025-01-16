@@ -1,0 +1,64 @@
+.container {
+    background-color: rgb(245, 245, 208);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgb(228, 228, 193);
+    border-radius: 5px;
+    width: 240px;
+    padding: 5px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: rgb(190, 190, 152);
+    scale: 1.05;
+}
+
+.box {
+    text-align: center;
+    border-radius: 10px;
+    height: 350px;
+
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h1 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.lii {
+    text-decoration: none;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart button {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+
+    background-color: rgb(180, 234, 252);
+    border-radius: 4px;
+
+    padding: 5px;
+
+
+}

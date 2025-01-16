@@ -1,0 +1,37 @@
+.container1{
+    background-color: rgb(247, 247, 196);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card1{
+    background-color: rgb(245, 245, 163);
+    border-radius: 6px;
+    padding: 5px;
+    transition-duration: 1s;
+    cursor: pointer;
+
+}
+.card1:hover{
+    background-color: rgb(190, 190, 152);
+    scale: 1.05;
+}
+.box1{
+    text-align: center;
+    border-radius: 10px;
+}
+.card1 img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card1 h1 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.li{
+    text-decoration: none;
+}

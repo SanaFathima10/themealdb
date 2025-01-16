@@ -1,0 +1,13 @@
+.one{
+    background-color: rgb(170, 255, 127);
+    height: 70px;
+    padding: 5px;
+    display: flex;
+}
+.two{
+    background-color: rgb(170, 255, 127);
+    padding: 5px;
+    display: flex;
+    justify-content:space-between;
+
+}

@@ -2,7 +2,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { increase, decrease } from '../redux/redux';
-import './cart.css'
+import './Cart.css'
 
 function Cart() {
     let cartItems = useSelector(state => state.meals.value)

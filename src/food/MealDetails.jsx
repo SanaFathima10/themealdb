@@ -23,13 +23,13 @@ function MealDetails() {
     }, [mealid])
 
     return (
-        <div className='container'>
+        <div className='containerone'>
 
-            <div className='template' style={{ backgroundImage: `url(${data?.strMealThumb})`, width: '400px' }}>
+            <div className='template' style={{ backgroundImage: `url(${data?.strMealThumb})`, width: '720px' }}>
                 <div className='content'>
 
-                    <h4>{data?.strMeal}</h4>
-                    <img src={data?.strMealThumb} alt="" width={150} />
+                    <h1>{data?.strMeal}</h1>
+                    <img className='imgg' src={data?.strMealThumb} alt="" width={150} />
                     <h4>{data?.strInstructions}</h4>
                 </div>
             </div>

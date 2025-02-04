@@ -1,13 +1,17 @@
-.one{
-    background-color: rgb(170, 255, 127);
-    height: 70px;
-    padding: 5px;
+.navbar {
+    border: 1px solid;
     display: flex;
-}
-.two{
-    background-color: rgb(170, 255, 127);
-    padding: 5px;
-    display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    background-color: #FDFCE0;
 
+
+}
+
+.menus {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
 }

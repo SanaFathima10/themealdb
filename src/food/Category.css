@@ -1,37 +1,72 @@
-.container1{
-    background-color: rgb(247, 247, 196);
+.container1 {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #C2C57F;
     gap: 20px;
 }
-.card1{
-    background-color: rgb(245, 245, 163);
-    border-radius: 6px;
+
+.card1 {
+    background-color: white;
+    border-radius: 25px;
     padding: 5px;
     transition-duration: 1s;
     cursor: pointer;
 
 }
-.card1:hover{
-    background-color: rgb(190, 190, 152);
+
+.card1:hover {
+    background-color: #DCEDC2;
     scale: 1.05;
 }
-.box1{
+
+.box1 {
+
     text-align: center;
     border-radius: 10px;
 }
+
 .card1 img {
     height: 150px;
     object-fit: cover;
     border-radius: 8px;
 }
+
 .card1 h1 {
     margin-top: 15px;
     font-size: 18px;
     font-weight: bold;
     color: black;
 }
-.li{
+
+.li {
     text-decoration: none;
+}
+
+.gaa {
+    border: 1px solid;
+    background-color: #FDFCE0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-bottom: 2px;
+}
+
+.onetwo {
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding-left: 60px;
+
+
+    display: flex;
+}
+
+.onetwo img {
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.537);
 }

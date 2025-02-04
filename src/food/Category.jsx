@@ -1,10 +1,12 @@
 import React, { useEffect, useState, } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
-import './Category.css'
+import './Category.css';
+import logotwo from '../assets/project logo two.webp'
+import logo from '../assets/project logo.png'
 
 function Food() {
-  
+
 
   let [data, setData] = useState([])
 
@@ -24,29 +26,40 @@ function Food() {
   }, [])
 
   return (
-    <div className='container1'>
+    <>
+      <div className='onetwo' style={{ backgroundImage: `url(${logotwo})` }}>
+        <img src={logo} alt="" />
+      </div>
+      <div className='container1'>
+<div>
 
-      {/* { <h1>Food</h1> } */}
-      {
-        data.map((obj, index) => {
-          return (
-            <div className='card1' key={index}>
-              <div className='box1'>
 
-                <Link className='li' to={`/category/${obj.strCategory}`}>
+  
+</div>
 
-                  <img src={obj.strCategoryThumb} alt="" />
-                  <h1>{obj.strCategory}</h1>
-                </Link>
+        {
+          data.map((obj, index) => {
+            return (
+              <div className='card1' key={index}>
+                <div className='box1'>
+
+                  <Link className='li' to={`/category/${obj.strCategory}`}>
+
+                    <img src={obj.strCategoryThumb} alt="" />
+                    <div className='gaa'>
+                      <h1>{obj.strCategory}</h1>
+                    </div>
+                  </Link>
+                </div>
               </div>
-            </div>
 
 
-          )
-        })
-      }
+            )
+          })
+        }
 
-    </div>
+      </div>
+    </>
   )
 }
 

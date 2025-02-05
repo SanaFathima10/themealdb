@@ -29,6 +29,7 @@ function Cart() {
                                     <div className='cartu'>
                                         <h3>{item.strMeal}</h3>
                                         <h3>{item.count * item.price}</h3>
+                                        <button className='btn'>buy</button>
                                         <div className='spa'>
 
                                             <button onClick={(index) => { dispatch(decrease(index)) }}>

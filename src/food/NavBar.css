@@ -6,10 +6,16 @@
 
 
 }
+.woo{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
 
 .menus {
     display: flex;
     gap: 20px;
+    padding-left: 10px;
 }
 
 a {

@@ -1,7 +1,6 @@
 .all {
     background-color: #C2C57F;
     border: 1px solid;
-    border-radius: 20px;
     padding-bottom: 40px;
 }
 
@@ -12,6 +11,7 @@
     background-color: white;
     width: 500px;
     height: 200px;
+    margin-bottom: 20px;
     border-radius: 20px;
     padding: 20px;
     display: flex;
@@ -33,10 +33,20 @@
 }
 
 .cartu {
-    padding: 50px;
+    padding: 10px;
 
 }
 
 .spa {
     display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: 10px;
+}
+.btn{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 60px;
+    background-color: #C2C57F;
+
 }

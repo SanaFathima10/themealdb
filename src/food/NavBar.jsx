@@ -32,14 +32,13 @@ function NavBar() {
     <div className='navbar'>
 
       <div className='menus'>
-        <h4>fds</h4>
-        <h4>fds</h4>
-        <h4>fds</h4>
-        <h4>fds</h4>
+        <h4>HOME</h4>
+        <h4>MENU</h4>
+
       </div>
 
       <Link to={'/cart'} className='woo'>
-        <img src={cart} alt="" width={50} />
+        <img src={cart} alt="" width={40} />
       </Link>
 
 

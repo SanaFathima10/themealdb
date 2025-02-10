@@ -54,9 +54,10 @@ function FoodDetails() {
                 data?.map((obj, index) => {
                     let totalCartCount = data.reduce((total, meal) => total + meal.count, 0);
                     return (
+                        <div className='card' key={index} >
 
-                        <div className='card' key={index}>
                             <Link className='lii' to={`/meal/${obj?.idMeal}`}>
+
                                 <div className='box'>
 
                                     <img src={obj?.strMealThumb} alt="" width={190} />
@@ -66,7 +67,9 @@ function FoodDetails() {
                                     </div>
 
                                 </div>
+
                             </Link>
+
                             <div className='btns'>
                                 {
                                     obj.count === 0 ?
@@ -86,14 +89,15 @@ function FoodDetails() {
                                 }
 
                             </div>
-
                         </div>
+
                     )
                 })
             }
-
+           
 
         </div>
+      
 
     )
 

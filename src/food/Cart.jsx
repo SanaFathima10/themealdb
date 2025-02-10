@@ -32,11 +32,11 @@ function Cart() {
                                         <button className='btn'>buy</button>
                                         <div className='spa'>
 
-                                            <button onClick={(index) => { dispatch(decrease(index)) }}>
+                                            <button onClick={() => { dispatch(decrease(item.idMeal)) }}>
                                                 -
                                             </button>
                                             <h2>{item.count}</h2>
-                                            <button onClick={(index) => { dispatch(increase(index)) }}>
+                                            <button onClick={() => { dispatch(increase(item.idMeal)) }}>
                                                 +
                                             </button>
                                         </div>

@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import './Category.css';
 import logotwo from '../assets/project logo two.webp'
 import logo from '../assets/project logo.png'
+import beef from '../assets/beef.jpg'
+import star from '../assets/star.png'
 
 function Food() {
 
@@ -31,12 +33,11 @@ function Food() {
         <img src={logo} alt="" />
       </div>
       <div className='sect'>
-        <div className='box'>
+        <div className='boxs'>
           <div className='cheruth'>
-
-
-          <h1 style={{ fontFamily: "arial" }}>CONCEPT & VISION</h1>  </div>
+            <h1 style={{ fontFamily: "arial" }}>CONCEPT & VISION</h1>
           </div>
+        </div>
 
         <div className='boxtu'>
           <h2>
@@ -47,12 +48,13 @@ function Food() {
         </div>
 
       </div>
+      <div className='mealss'>
+        <h1><span>LIST ALL MEAL CATEGORIES</span></h1>
+      </div>
       <div className='container1'>
 
 
-        <div>
 
-        </div>
 
         {
           data.map((obj, index) => {
@@ -74,8 +76,40 @@ function Food() {
             )
           })
         }
+      </div>
+      <div className='section-40'>
+
+        <h1 className='best'>BEST SELLER IN THIS WEEK</h1>
+      </div>
+      <div className='section-4'>
+        <div className='section-41'>
+          <div className='sec-2'>
+            <div className='sec-20'>
+              <img src={beef} alt="" width={350} />
+            </div>
+          </div>
+          <div className='sec-1'>
+            <div className='sec-10'>
+
+
+              <h2 className='grill'> GRILLED BEEF TENDERLOIN TRUFFLE MASH</h2>
+              <p className='indulge'>"Indulge in the rich,authentic flavors of our handcrafted grilled beef tenderlion truffle mash,made with love and care"</p>
+              <img src={star} alt="" width={80} />
+            </div>
+          </div>
+        </div>
 
       </div>
+
+      <div className='section-5'>
+        <button>Meet Our Team
+
+
+
+        
+        </button>
+      </div>
+
     </>
   )
 }

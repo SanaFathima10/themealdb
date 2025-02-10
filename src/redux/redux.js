@@ -55,14 +55,13 @@ let mealsSlice = createSlice({
 
 //     }
 // })
+// Actions for increasing and decreasing count
 
 
 
 export let { addToList, increase, decrease } = mealsSlice.actions
-// export let { addToCart } = cartSlice.actions
 export let store = configureStore({
     reducer: {
         meals: mealsSlice.reducer,
-        // cart:cartSlice.reducer
     }
 })

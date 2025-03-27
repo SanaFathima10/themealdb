@@ -66,7 +66,8 @@ function Food() {
 
                     <img src={obj.strCategoryThumb} alt="" />
                     <div className='gaa'>
-                      <h1>{obj.strCategory}</h1>
+                   <h1>{obj.strCategory}</h1>
+                   
                     </div>
                   </Link>
                 </div>

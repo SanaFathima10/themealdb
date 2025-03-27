@@ -1,13 +1,13 @@
 .all {
     background-color: #C2C57F;
-    border: 1px solid;
+    /* border: 1px solid; */
     padding-bottom: 40px;
 }
 
 
 
 .cart {
-    border: 1px solid;
+    /* border: 1px solid; */
     background-color: white;
     width: 500px;
     height: 200px;
@@ -24,7 +24,7 @@
 }
 
 .cartone {
-    border: 1px solid;
+    /* border: 1px solid; */
     border-radius: 10px;
     border-color: white;
     width: 200px;
@@ -44,7 +44,7 @@
     margin-top: 10px;
 }
 .btn{
-    border: 1px solid;
+    /* border: 1px solid; */
     border-radius: 5px;
     width: 60px;
     background-color: #C2C57F;

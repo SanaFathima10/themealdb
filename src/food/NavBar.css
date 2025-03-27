@@ -1,23 +1,67 @@
+
 .navbar {
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     background-color: #FDFCE0;
+    padding: 10px 20px;
+    align-items: center;
+  }
+  
 
+  .menus {
+    display: flex;
+    gap: 20px;
+  }
+  
 
-}
-.woo{
+  .navbar input[type="text"] {
+    padding: 8px 15px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 250px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+  .navbar input[type="text"]:focus {
+    border-color: #ffb74d;
+    box-shadow: 0 0 8px rgba(255, 183, 77, 0.5);
+    outline: none;
+  }
+  
+
+  .navbar button {
+    padding: 8px 15px;
+    margin-left: 10px;
+    background-color: #ffb74d;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar button:hover {
+    background-color: #ff9800;
+  }
+  
+
+  .woo {
     display: flex;
     align-items: center;
     padding-right: 10px;
-}
+  }
+  
 
-.menus {
-    display: flex;
-    gap: 20px;
-    padding-left: 10px;
-}
+  .woo img {
+    width: 40px;
+    height: auto;
+  }
+  
 
-a {
+  a {
     text-decoration: none;
-}
+  }
+  

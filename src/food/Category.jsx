@@ -1,7 +1,7 @@
 import React, { useEffect, useState, } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
-import './Category.css';
+import './Category.css'
 import logotwo from '../assets/project logo two.webp'
 import logo from '../assets/project logo.png'
 import beef from '../assets/beef.jpg'
